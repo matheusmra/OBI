@@ -5,19 +5,19 @@ int main() {
     int N, M, i, j, tempo = 0, posicao_atual = 0;
     int *casas, *encomendas;
 
-    // Leitura do número de casas e encomendas
+    // Leitura do nï¿½mero de casas e encomendas
     scanf("%d %d", &N, &M);
 
-    // Alocação dinâmica dos vetores
+    // Alocaï¿½ï¿½o dinï¿½mica dos vetores
     casas = (int*) malloc(N * sizeof(int));
     encomendas = (int*) malloc(M * sizeof(int));
 
-    // Leitura dos números das casas
+    // Leitura dos nï¿½meros das casas
     for(i = 0; i < N; i++) {
         scanf("%d", &casas[i]);
     }
 
-    // Leitura dos números das encomendas
+    // Leitura dos nï¿½meros das encomendas
     for(i = 0; i < M; i++) {
         scanf("%d", &encomendas[i]);
     }
